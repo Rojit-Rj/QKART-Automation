@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Parameters Suite">
+   <test name="Params">
+   
+      <parameter name = "username" value="testUser" />
+      <parameter name = "password" value="abc@123" />
+      <parameter name = "yonex" value = "YONEX" />
+      <parameter name = "tan" value = "Tan" />
+      <parameter name = "fullYonex" value = "YONEX Smash Badminton Racquet" />
+      <parameter name = "fullTan" value = "Tan Leatherette Weekender Duffle" />
+      <parameter name = "addr" value = "Addr line 1 addr Line 2 addr line 3" />
+      <parameter name = "Xtend" value = "Xtend" />
+      <parameter name = "Yarine" value = "Yarine" />
+      <parameter name = "fullXtend" value = "Xtend Smart Watch" />
+      <parameter name = "fullYarine" value = "Yarine Floor Lamp" />
+      <parameter name = "Stylecon" value = "Stylecon" />
+      <parameter name = "fullStylecon" value = "Stylecon 9 Seater RHS Sofa Set " />
+      <parameter name = "num" value = "10" />
+
+      <groups>
+      <run>
+         <include name = "Sanity_test" />
+         <include name = "Regression_Test" />
+      </run>
+      </groups>
+
+      <classes>
+         <class name = "QKART_TESTNG.QKART_Tests" />
+               <!-- <methods>
+                     <include name = "TestCase01" />
+                     <include name = "TestCase02" />
+                     <include name = "TestCase03" />
+                     <include name = "TestCase04" />
+                     <include name = "TestCase05" />
+                     <include name = "TestCase06" />
+                     <include name = "TestCase07" />
+                     <include name = "TestCase08" />
+                     <include name = "TestCase09" />
+                     <include name = "TestCase10" />
+                     <include name = "TestCase11" />
+               </methods> -->
+      </classes>
+
+   </test>
+</suite>
